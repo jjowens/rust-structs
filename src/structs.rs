@@ -1,8 +1,8 @@
-mod structs {
+pub mod structs {
     pub struct Employee {
-        first_name: String,
-        last_name: String,
-        role: String,
-        department: String,
+        pub first_name: String,
+        pub last_name: String,
+        pub role: String,
+        pub department: String,
     }
 }
